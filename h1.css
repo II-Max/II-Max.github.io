@@ -1,0 +1,78 @@
+body{
+    background-image: url('nen.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;    /* Căn trái ngang */
+    align-items: center;        /* Căn giữa dọc */
+    min-height: 100vh;          /* Chiều cao tối thiểu = 100% màn hình */
+    margin: 0;                  /* Reset margin mặc định */
+}
+.nhap {
+    text-align: center;
+    color: white;
+    background-color: rgb(95, 112, 141, 0.65);
+    width: 40%;
+    height: 400px;
+    border-radius: 10px;
+}
+.nhap h1{
+    margin-top: 20px;
+    color: rgb(30, 22, 79);
+}
+.nhap h5{
+    color: rgb(30, 22, 79);
+    margin-top: -10px;
+}
+.nhap input[type="text"]{
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(95, 112, 141, 0.8);
+}
+.nhap input[type="password"]{
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color:  rgb(95, 112, 141, 0.8);
+    margin-top: 20px;
+}
+.nhap button[type="submit"] {
+    width: 20%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(30, 22, 79, 0.5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.nhap button[type="submit"]:hover{
+    background-color: rgb(30, 22, 79, 0.75);
+}
+::placeholder {
+    color: rgb(30, 22, 79);
+    opacity: 1;
+}
+.nhap input:focus {
+    caret-color:  rgb(30, 22, 79); /* Màu đỏ */
+    outline: none;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(30, 22, 79, 0.5);
+}
+p{
+    color: rgb(30, 22, 79, 0.9);
+    margin-top: 10px;
+    font-size: 14px;
+}
